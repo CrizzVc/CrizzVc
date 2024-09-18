@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">Hola, soy Criz</a> 👋</h1>
 </div>
-<img src="/imagenes/descarga (25).jpeg" width="1040px" height="500px">
+<img src="/imagenes/banner.gif" width="1040px" height="500px">
 
 
 <!--
