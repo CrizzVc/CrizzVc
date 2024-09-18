@@ -1,7 +1,7 @@
 <div align="center">
 <h1 align="center">Hola, soy Criz</a> 👋</h1>
 </div>
-<img src="/imagenes/mod.gif" width="400px">
+<img src="/imagenes/mod.gif" width="900px">
 
 
 <!--
