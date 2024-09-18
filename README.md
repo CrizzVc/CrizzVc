@@ -1,6 +1,7 @@
-<h1 align="center">Hola, soy Criz 👋</h1>
-
-<img src="/imagenes/mod.gif" style="border-radius: 2px;" align="center">
+<div align="center">
+<h1 align="center">Hola, soy Criz</a> 👋</h1>
+</div>
+<img src="/imagenes/mod.gif">
 
 
 <!--
