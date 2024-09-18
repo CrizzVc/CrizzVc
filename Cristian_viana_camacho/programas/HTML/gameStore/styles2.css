@@ -1,0 +1,142 @@
+h1{
+    color: bisque;
+    text-align: center;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+#tituloJuego{
+    color: bisque;
+    text-align: right;
+    margin-right: 300px;
+}
+
+body{
+    background: linear-gradient(to right, transparent, rgb(74, 38, 34)), url("/ADSO2928707/portafolio_aprendices/Cristian_viana_camacho/imagenes/maxresdefault.jpg");
+    background-color: rgb(169, 39, 39);
+    
+}
+
+#portada{
+   float: right;
+   margin-right: 200px;
+   border-radius: 10px;
+   box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(49, 41, 41),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
+
+}
+
+#trailer{
+    float: left;
+    margin-left: 200px;
+    margin-top: 00px;
+    border-radius: 10px;
+   box-shadow: inset 0 -3em 3em rgba(0,0,0,0.1),
+                0 0  0 2px rgb(49, 41, 41),
+                0.3em 0.3em 1em rgba(0,0,0,0.3);
+}  
+
+#informacion{
+    color: bisque;
+    text-align: center;
+    margin-top: 199px;
+    margin-right: 100px;
+    margin-left: 800px;
+    backdrop-filter: blur(30px);
+}
+
+#descripcion{
+    margin-top: -800px;
+    float: left;
+    margin-left: 100px;
+    margin-right: 700px;
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+
+}
+/*calificacion del juego*/ 
+
+    .rating:not(:checked) {
+        margin-top: 450px;
+        margin-right: 260px;
+    
+    }
+
+    .rating:not(:checked) > input {
+        position: absolute;
+        appearance: none;
+    }
+    
+    .rating:not(:checked) > label {
+        float: right;
+        cursor: pointer;
+        font-size: 40px;
+        color: #666;
+    }
+    
+    .rating:not(:checked) > label:before {
+        content: '★';
+    }
+    
+    .rating > input:checked + label:hover,
+    .rating > input:checked + label:hover ~ label,
+    .rating > input:checked ~ label:hover,
+    .rating > input:checked ~ label:hover ~ label,
+    .rating > label:hover ~ input:checked ~ label {
+        color: #e58e09;
+
+    }
+    
+    .rating:not(:checked) > label:hover,
+    .rating:not(:checked) > label:hover ~ label {
+        color: #ff9e0b;
+    }
+    
+    .rating > input:checked ~ label {
+        color: #ffa723;
+    }
+    
+/*fin de a calificacion del juego*/
+  
+p{
+    color: bisque;
+}
+
+#info{
+    margin-top: 510px;
+    margin-left: 1000px;
+}
+
+#subtitulo1{
+    color: bisque;
+    margin-left: 420px;
+    margin-top: 200px;
+}
+
+#subtitulo2{
+    color: bisque;
+    margin-left: 100px;
+    margin-right: 700px;
+    margin-top: -830px;
+    backdrop-filter: blur(30px);
+    border-radius: 8px;
+}
+
+#copy{
+    background-color: #4c1417;
+    float: below;
+    margin-top: 1000px;
+    text-align: center;
+
+}
+
+
+
+   
+   
+
+  
