@@ -1,6 +1,6 @@
 <h1 align="center">Hola, soy Criz 👋</h1>
 
-<img src="">
+<img src="/imagenes/mod.gif">
 
 
 <!--
