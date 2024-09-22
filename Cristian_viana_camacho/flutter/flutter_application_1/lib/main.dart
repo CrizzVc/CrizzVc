@@ -7,7 +7,7 @@ class Pokemon{
   Pokemon(Map info){
       this.name = info['forms'][0]['name'];
   }
-  }
+}
 
 void main() async {
 
