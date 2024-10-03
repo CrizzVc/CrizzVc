@@ -77,5 +77,5 @@ void main() async {
   User user = new User(datos);
   print("ingrese el id del usuario");
   v = int.parse(stdin.readLineSync()!);
-  print("${user}.id");
+  print(user.id);
 }
