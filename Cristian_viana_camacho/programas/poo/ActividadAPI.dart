@@ -2,22 +2,21 @@ import 'dart:io';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
-var v;
+int v = 1;
 
-class Adress {
+class Address {
   String? street;
   String? suite;
   String? city;
   String? zipcode;
   Geo? geo;
 
-  Adress(Map direc) {
-    this.street = direc[v]["street"];
-    this.suite = direc[v]["suite"];
-    this.city = direc[v]["city"];
-    this.zipcode = direc[v]["zipcode"];
-    Map g3o = direc[v]["adress"]["geo"];
-    this.geo = new Geo(g3o);
+  Address(Map direc) {
+    this.street = direc["street"];
+    this.suite = direc["suite"];
+    this.city = direc["city"];
+    this.zipcode = direc["zipcode"];
+    this.geo = Geo(direc["geo"]);
   }
 }
 
@@ -37,30 +36,34 @@ class User {
   String? name;
   String? username;
   String? email;
-  Adress? adress;
+  Address? address;
   String? phone;
   String? website;
   Company? company;
   User(Map api) {
-    this.id = api[v]["id"];
-    this.name = api[v]["name"];
-    this.username = api[v]["username"];
-    this.email = api[v]["email"];
-    Map direc = api[v]["adress"];
-    this.adress = new Adress(direc);
-    this.phone = api[v]["phone"];
-    this.website = api[v]["website"];
-    Map com = api[v]["company"];
-    this.company = new Company(com);
+    this.id = api["id"];
+    this.name = api["name"];
+    this.username = api["username"];
+    this.email = api["email"];
+    this.address = Address(api["address"]);
+    this.phone = api["phone"];
+    this.website = api["website"];
+    this.company = Company(api["company"]);
   }
+
+  @override
+    String toString() {
+      return 'User ID: ${this.id}, User Name: ${this.name}, Email: ${this.email}, Phone Number ${this.phone}.';
+    }
+
 }
 
 class Geo {
-  String? late;
+  String? lat;
   String? lng;
   Geo(Map g3o) {
-    this.late = g3o["adress"]["geo"];
-    this.late = g3o["adress"]["geo"];
+    this.lat = g3o["lat"];
+    this.lng = g3o["lng"];
   }
 }
 
@@ -71,8 +74,8 @@ void main() async {
 
   Map<String, dynamic> datos = jsonDecode(response.body);
 
-  User a = new User(datos);
+  User user = new User(datos);
   print("ingrese el id del usuario");
   v = int.parse(stdin.readLineSync()!);
-  print("${a}.id");
+  print("${user}.id");
 }
