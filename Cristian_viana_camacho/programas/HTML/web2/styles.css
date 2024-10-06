@@ -115,7 +115,7 @@ button.holder{
 
 #recuadro{
     /* background-color: #e04876; */
-    background: linear-gradient(to bottom, transparent, rgb(73, 21, 34)), url("/imagenes/ellen/ellen.02.jpg");
+    background: linear-gradient(to bottom, transparent, rgb(73, 21, 34)), url("/Cristian_viana_camacho/imagenes/ellen/ellen.02.jpg");
     background-size: 200px;
     width: 200px;
     height: 250px;
@@ -128,7 +128,7 @@ button.holder{
 
 #recuadro2{
     /* background-color: #e04876; */
-    background: linear-gradient(to bottom, transparent, rgb(73, 21, 34)), url("/imagenes/ellen/ellen.01.jpg");
+    background: linear-gradient(to bottom, transparent, rgb(73, 21, 34)), url("/Cristian_viana_camacho/imagenes/ellen/ellen.01.jpg");
     background-size: 200px;
     width: 200px;
     height: 250px;
