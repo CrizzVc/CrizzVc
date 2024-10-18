@@ -37,7 +37,8 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   dynamic data;
   late TextEditingController controller;
-  String text = '';
+  
+  int idu = 1;
   
 
   @override
@@ -46,11 +47,6 @@ class _MyHomePageState extends State<MyHomePage> {
     super.dispose();
   }
 
-  // void _incrementCounter() {
-  //   setState(() {
-  //     _counter++;
-  //   });
-  // }
 
   @override
   void initState() {
@@ -95,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       controller: controller,
                       onSubmitted: (String value) {
                         setState(() {
-                          text = controller.text;
+                          idu = int.tryParse(controller.text) ?? 1;
                         });
                       },
                       obscureText: false,
@@ -105,23 +101,24 @@ class _MyHomePageState extends State<MyHomePage> {
                       ),
                     ),
                   ),
+                  Text(''),
                   Text(
-                    'User id: $v',
+                    'User id: $idu',
                     style: Theme.of(context).textTheme.headlineSmall,
                   ),
-                  Text('$text '),
+                  Text(' '),
 
                   Text(
-                    'Phone: ${data?[v -1]['phone'] ?? '+57 301 ******1' }',
+                    'Phone: ${data?[idu -1]['phone'] ?? '+57 301 ******1' }',
                   ),
                   Text(
-                    'User Name: ${data?[v -1]['username'] ?? 'luchoPorTuAno'}',
+                    'User Name: ${data?[idu -1]['username'] ?? 'luchoPorTuAno'}',
                   ),
                   Text(
-                    'Nombre: ${data?[v -1]['name'] ?? 'venito Camela'}',
+                    'Nombre: ${data?[idu -1]['name'] ?? 'venito Camela'}',
                   ),
                   Text(
-                    'Email: ${data?[v -1]['email'] ?? 'user@gmail.com'}',
+                    'Email: ${data?[idu -1]['email'] ?? 'user@gmail.com'}',
                   ),
                   Text(
                     ' ',
@@ -136,13 +133,13 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
 
                   Text(
-                    'Street: ${data?[v -1]['address']['street'] ?? 'los tres postes'}',
+                    'Street: ${data?[idu -1]['address']['street'] ?? 'los tres postes'}',
                   ),
                   Text(
-                    'Suite: ${data?[v -1]['address']['suite'] ?? 'ap 2'}',
+                    'Suite: ${data?[idu -1]['address']['suite'] ?? 'ap 2'}',
                   ),
                   Text(
-                    'City: ${data?[v -1]['address']['city'] ?? 'Malambo'}',
+                    'City: ${data?[idu -1]['address']['city'] ?? 'Malambo'}',
                   ),
                 ],
               ),
