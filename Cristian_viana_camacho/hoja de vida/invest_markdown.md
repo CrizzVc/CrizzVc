@@ -62,12 +62,15 @@ Para incluir código, se pueden usar comillas invertidas:
 `código en línea`
 ```
 ## bloque de código
-puedes crear bloques de codigo utilizando " ``` " al comienzo y al final del codigo  
+puedes crear bloques de codigo utilizando ` ``` ` al comienzo y al final del codigo  
 ```
-Ventajas de usar Markdown
-Portabilidad: Se puede usar en múltiples plataformas y aplicaciones.
-Enfoque en el contenido: Permite a los autores centrarse en el contenido en lugar de en el formato.
-Amplio soporte: Muchas aplicaciones y plataformas, como GitHub, Reddit y WordPress, soportan Markdown.
-Conclusión
+este es un bloque de codigo!! :D
+```
+## Ventajas de usar Markdown
+**Portabilidad:** Se puede usar en múltiples plataformas y aplicaciones.
+**Enfoque en el contenido:** Permite a los autores centrarse en el contenido en lugar de en el formato.
+**Amplio soporte:** Muchas aplicaciones y plataformas, como GitHub, Reddit y WordPress, soportan Markdown.
+
+## Conclusión
 Markdown es una herramienta poderosa para la creación de contenido en la web. Su facilidad de uso y legibilidad lo han convertido en una opción popular para escritores, desarrolladores y profesionales de la comunicación.
-```
+
