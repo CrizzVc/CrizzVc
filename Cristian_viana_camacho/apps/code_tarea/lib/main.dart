@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'package:dio/dio.dart';
 import 'package:ninetythree_shadows/ninetythree_shadows.dart';
-// import 'ActividadAPI.dart';
+import 'ActividadAPI.dart';
 
 void main() {
   runApp(const MyApp());
@@ -58,9 +58,11 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
 
-  Future<void> getInfo() async {
-    final response = await Dio().get('https://jsonplaceholder.typicode.com/users/');
+  Future<User> getInfo() async {
+    final response = await Dio().get('https://jsonplaceholder.typicode.com/users/${idu}');
     data = response.data;
+    User user2 = new User(data);
+    return user2;
   }
 
   @override
@@ -71,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
         centerTitle: true,
         backgroundColor: Color.fromARGB(255, 252, 191, 26),
       ),
-      body: FutureBuilder(
+      body: FutureBuilder<User>(
         future: getInfo(), 
         builder: (BuildContext context, AsyncSnapshot snapshot){
           
@@ -80,6 +82,7 @@ class _MyHomePageState extends State<MyHomePage> {
           }else if (snapshot.hasError) {
             return Text('error: ${snapshot.error}');
           }else {
+            User user = snapshot.data;
             return Center(
               child: Center( child:  Column(
                 mainAxisAlignment: MainAxisAlignment.center,
@@ -120,16 +123,16 @@ class _MyHomePageState extends State<MyHomePage> {
                     Text(' '),
 
                     Text(
-                      'Phone: ${data?[idu -1]['phone'] ?? '+57 301 ******1' }',
+                      'Phone: ${user.phone ?? '+57 301 ******1' }',
                     ),
                     Text(
-                      'User Name: ${data?[idu -1]['username'] ?? 'luchoPorTuAno'}',
+                      'User Name: ${user.username ?? 'luchoPorTuAno'}',
                     ),
                     Text(
-                      'Nombre: ${data?[idu -1]['name'] ?? 'venito Camela'}',
+                      'Nombre: ${user.name ?? 'venito Camela'}',
                     ),
                     Text(
-                      'Email: ${data?[idu -1]['email'] ?? 'user@gmail.com'}',
+                      'Email: ${user.email ?? 'user@gmail.com'}',
                     ),
                     Text(
                       ' ',
@@ -144,13 +147,13 @@ class _MyHomePageState extends State<MyHomePage> {
                     ),
 
                     Text(
-                      'Street: ${data?[idu -1]['address']['street'] ?? 'los tres postes'}',
+                      'Street: ${user.address?.street ?? 'los tres postes'}',
                     ),
                     Text(
-                      'Suite: ${data?[idu -1]['address']['suite'] ?? 'ap 2'}',
+                      'Suite: ${user.address?.suite ?? 'ap 2'}',
                     ),
                     Text(
-                      'City: ${data?[idu -1]['address']['city'] ?? 'Malambo'}',
+                      'City: ${user.address?.city ?? 'Malambo'}',
                     ),
                         ],
 
