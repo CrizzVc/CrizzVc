@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
       appBar: AppBar(
         title: Text('Json Users'),
         centerTitle: true,
-        backgroundColor: Color.fromARGB(255, 106, 106, 241),
+        backgroundColor: Color.fromARGB(255, 252, 191, 26),
       ),
       body: FutureBuilder(
         future: getInfo(), 
