@@ -1,0 +1,20 @@
+{
+    "favoritos": [
+        {
+            "img":"https://nekos.best/api/v2/neko/ffa95180-aa79-4a2a-ba63-a421e3ce1375.png",
+            "artist":"くほ鷹"
+        },
+        {
+            "img":"https://nekos.best/api/v2/neko/83ada93e-cc65-4c46-b62a-3aa48ecc8614.png",
+            "artist":"ゆらいこ"
+        },
+        {
+            "img":"https://nekos.best/api/v2/neko/0ff779a0-d6b3-4a62-85c4-f5513d14a53c.png",
+            "artist":"信晚"
+        },
+        {
+            "img":"https://nekos.best/api/v2/neko/48df34c1-570e-480b-82b1-9ff4fe278a52.png",
+            "artist":"支倉"
+        }
+    ]
+}
