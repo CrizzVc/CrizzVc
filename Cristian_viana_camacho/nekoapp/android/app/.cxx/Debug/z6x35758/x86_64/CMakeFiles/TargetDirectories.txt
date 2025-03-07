@@ -1,0 +1,2 @@
+C:/Users/yojader/OneDrive/Documentos/GitHub/CrizzVc/Cristian_viana_camacho/nekoapp/android/app/.cxx/Debug/z6x35758/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/yojader/OneDrive/Documentos/GitHub/CrizzVc/Cristian_viana_camacho/nekoapp/android/app/.cxx/Debug/z6x35758/x86_64/CMakeFiles/rebuild_cache.dir
