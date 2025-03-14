@@ -1,0 +1,122 @@
+.rubik-fuente {
+    font-family: "Rubik", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#cuadro{  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+body{
+    background-color: #171717;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#cuadro1{
+    width: 650px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 18px;
+}
+
+.scale-up-center{animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
+
+#cuadro2{
+    width: 325px;
+    height: 500px;
+    background-color: rgb(49, 49, 49);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#cuadro2 h1{
+    width: 180px;
+    height: 70px;
+    position: absolute;
+    top: 20%;
+    left: 70px;
+    color:#ffffff;
+}
+
+#cuadro2 h4{
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 40%;
+    left: 70px;
+    color: rgb(170, 176, 177);
+}
+
+#cuadro2 img{
+    width: 325px;
+    height: 500px;
+}
+
+input{
+ display: grid;
+ margin-top: 20px;
+ border-radius: 4px;
+ border: solid 1px #ababab;
+ width: 200px;
+ height: 20px;
+ padding-left: 2px;
+}
+
+#inputs{
+    position: absolute;
+    right:60px;
+    top: 15%;
+    width: 210px;
+    height: 280px;
+    padding: auto;
+}
+
+#inputs h2{
+    margin-left: 65px;
+    color: #202020;
+}
+
+#inputs #b1{
+    width: 205px;
+    background-color: #202020;
+    border-radius: 4px;
+    border: none;
+    color: white;
+    padding: 1%;
+    margin-top: 13px;
+}
+
+#inputs div input{
+    margin-top: 23px;
+    height: 13px;
+    border-radius: 4px;
+    border: solid 1px #ababab;
+}
+
+#tyd{
+    position: relative;
+    width: 210px;
+    height: 20px;
+}
+
+#tyd input{
+    position: absolute;
+    left: -100px;
+    top: -13px;
+}
+
+#tyd p{
+    position: absolute;
+    left: 15px;
+    top: -6.5px;
+    font-size: 14px;
+}

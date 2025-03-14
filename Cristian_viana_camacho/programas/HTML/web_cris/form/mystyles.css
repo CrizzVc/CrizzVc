@@ -1,0 +1,93 @@
+body{
+    background-color: #325ab3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #1c80aa;
+    margin-left: -15px;
+}
+
+h4{
+    color: #76919c;
+}
+
+#texto{
+    /* font-size: 40px; */
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+#pantalla{
+    background-color: white;
+    display: flex;
+    overflow: hidden;
+    border-radius: 18px;
+    /* border: solid 1px; */
+    height: 560px;
+}
+
+
+#enviar{
+    background-color: #46798e;
+    height: 50px;
+    border: none;
+}
+
+#enviar:hover{
+    background-color: #4ea9cf;
+}
+
+label{
+    /* padding: 2px; */
+}
+
+#gustos{
+    margin-top: 130px;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    border: solid 1px #87b0c1;
+    border-radius: 20px;
+    color: #6597ac;
+    margin-top: 10px;
+}
+
+section img{
+    margin-left: 20px;
+    margin-top: 120px;
+    display: flex;
+}
+
+.checks{
+    width: 30px;
+    border: solid 1px ;
+    height: 20px;
+}
+
+select{
+    width: 200px;
+    height: 35px;
+    padding: 5px;
+    border: solid 1px #87b0c1;
+    border-radius: 20px;
+    margin-top: 10px;
+    color: #6597ac;
+}
+
+#cuadro{
+    background-color: rgb(229, 245, 245);
+    display: flex;
+    width: 600px;
+    height: 560px;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}

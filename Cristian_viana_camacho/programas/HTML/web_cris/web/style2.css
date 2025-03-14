@@ -1,0 +1,82 @@
+body{
+    background-color: #202020;
+    /* background-image: url("img/cielo.jpeg"); */
+    color: white;
+}
+
+#cuadro{
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    width: 400px;
+    height: 500px;
+    border-radius: 18px;
+    background-color: #333333;
+    /* filter: blur(1.0rem); */
+    padding: 5px;
+    z-index: 1;
+}
+
+.scale-up-center{animation:scale-up-center 0.4s; } @keyframes scale-up-center{ 0%{transform:scale(.5)} 100%{transform:scale(1)} }
+
+#foto{
+    position: absolute;
+    left: 25%;
+    top: 45px;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+#apodo{
+    position: absolute;
+    left: 39%;
+    top: 240px;
+    /* font-size: 10px; */
+}
+
+#datos{
+    position: absolute;
+    left: 19%;
+    top: 300px;
+    font-size: 30px;
+}
+
+#boton{
+    position: absolute;
+    left: 34%;
+    top: 420px;
+    background-color: #2756bd;
+    border-radius: 18px;
+    width: 130px;
+    height: 30px;
+    color: white;
+    border: none;
+}
+
+#boton:hover{
+    background-color: #819ddb;
+}
+
+#ball1{
+    position: absolute;
+    left: 45%;
+    top: -20%;
+    width: 300px;
+    height: 300px;
+    background-color: #ffed47;
+    border-radius: 50%;
+    filter: blur(3.5rem);
+    z-index: 0;
+}
+
+#ball2{
+    position: absolute;
+    top: 80%;
+    width: 200px;
+    height: 200px;
+    background-color: #ff47ff;
+    border-radius: 50%;
+    filter: blur(3.5rem);
+    z-index: 0;
+}
