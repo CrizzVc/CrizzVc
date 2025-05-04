@@ -1,0 +1,81 @@
+body{
+    overflow: hidden;
+    background-color: #202020;
+    color : white;   
+}
+
+h1{
+    text-align: center;
+    color: rgb(250, 151, 58);
+    box-shadow: inset 14px 15px 29px -26px #130d0fa1;
+}
+
+section{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    width: 99.87%;
+    height: 99.84vh;
+}
+aside{
+    width: 70px;
+    height: 99.8vh;
+    /* border: solid 1px; */
+    transition: all 0.5s;
+    
+}
+
+#itens{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+aside:hover{
+    width: 200px;
+}
+
+nav{
+    width: 100%;
+    height: 55px;
+    /* border: solid 1px; */
+    background-color: rgb(250, 151, 58);
+    /* background-color: rgb(250, 58, 116); */
+}
+article{
+    width: 100%;
+    height: 94vh;
+    overflow-y: scroll;
+    box-shadow: inset 14px 15px 29px -26px #130d0f;
+    scrollbar-color: rgb(255, 255, 255) rgb(73, 73, 73);
+}
+
+#pantalla{
+    width: 100%;
+    /* background-color: aquamarine; */
+    /* background-color: blue; */
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: #292929;
+    color : white;
+    box-shadow: 8px 8px 14px -9px rgba(19, 13, 15, 1);
+}
+
+.card:hover{
+    box-shadow: 8px 8px 14px -9px rgba(19, 13, 15, 0.5);
+    transition: all 0.5s;
+    overflow: hidden;
+    background-color: #2b2a2a;
+
+}
+
+.card img:hover{
+    transform: scale(1.1);
+    transition: all 0.7s;
+    margin-bottom: 3px;
+}
+
