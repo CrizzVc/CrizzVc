@@ -5,7 +5,8 @@
 
 
 
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/tuusuario)
+[![Computrabajo](https://img.shields.io/badge/Computrabajo-0077C8?style=flat-square)]([https://www.computrabajo.com/](https://www.linkedin.com/in/cristian-vc-06b37b289/))
 
 ### Skills:
 
