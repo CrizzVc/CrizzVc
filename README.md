@@ -46,6 +46,7 @@
       <a href="URL_YT2"><img width="1919" height="1079" alt="Captura de pantalla 2026-05-26 135405" src="https://github.com/user-attachments/assets/76bbe9b7-a578-4e64-9350-9f8d8cd5764a" /></a>
       <br/><br/>
       <p>programa de widgets nativos para windows.</p>
+      <a href="https://github.com/CrizzVc/widgUI"><img src="https://img.shields.io/badge/Código-GitHub-black?logo=github"/></a>
       <a href="URL_YT2"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white"/></a>
     </td>
   </tr>
