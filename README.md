@@ -36,25 +36,24 @@
   <tr>
     <td align="center" width="50%">
       <h3>Tsukuyomi</h3>
-      <a href="URL_YT"><img width="1919" height="1079" alt="Captura de pantalla 2026-05-26 130815" src="https://github.com/user-attachments/assets/c94ee8cd-9133-4a6c-944f-6ba15ce3fcd6" /></a>
+      <a href="URL_YT"><img width="1919" height="1079" alt="Captura de pantalla 2026-05-26 130815" src="https://github.com/user-attachments/assets/e52d6236-7a36-4860-b381-62fa15133e0a" /></a>
       <br/><br/>
       <p>aplicacion de escritorio para ver anime de forma gratuita.</p>
       <a href="https://github.com/CrizzVc/Tsukuyomi"><img src="https://img.shields.io/badge/Código-GitHub-black?logo=github"/></a>
     </td>
     <td align="center" width="50%">
-      <h3>WConsole ft. <a href="https://github.com/angelvc25"> @angelvc25 </a> </h3>
-      <a href="URL_YT2"><img width="1919" height="1079" alt="Captura de pantalla 2026-05-26 135405" src="https://github.com/user-attachments/assets/56d99010-08a5-4985-a54f-a3551dfb85e4" /></a>
+      <h3>widgUI ft. <a href="https://github.com/angelvc25"> @angelvc25 </a> </h3>
+      <a href="URL_YT2"><img width="1919" height="1079" alt="Captura de pantalla 2026-05-26 135405" src="https://github.com/user-attachments/assets/76bbe9b7-a578-4e64-9350-9f8d8cd5764a" /></a>
       <br/><br/>
-      <p>Frontend para escritorio que convierte tu pc en una consola!</p>
-      <a href="https://github.com/CrizzVc/WConsole"><img src="https://img.shields.io/badge/Código-GitHub-black?logo=github"/></a>
-      <!-- <a href="URL_YT2"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white"/></a> -->
+      <p>programa de widgets nativos para windows.</p>
+      <a href="URL_YT2"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white"/></a>
     </td>
   </tr>
 </table>
 
   <td align="center" width="50%">
     <h3>WPS5 by. <a href="https://github.com/angelvc25"> @angelvc25 </a></h3>
-    <a href="URL_YT"><img width="1919" height="1079" alt="Captura de pantalla 2026-06-02 072535" src="https://github.com/user-attachments/assets/bf60cf50-0f58-492f-8d54-4ccd753ed6c0" /></a>
+    <a href="URL_YT"><img width="1919" height="1079" alt="Captura de pantalla 2026-06-02 072535" src="https://github.com/user-attachments/assets/ffef65b5-0f7f-487b-a32b-6b5f7fa80722" /></a>
     <br/><br/>
     <p>Experiencia de ps5 ahora en tu PC!!</p>
     <a href="https://github.com/angelvc25/WPS5"><img src="https://img.shields.io/badge/Código-GitHub-black?logo=github"/></a>
