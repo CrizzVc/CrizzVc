@@ -36,7 +36,7 @@
   <tr>
     <td align="center" width="50%">
       <h3>Tsukuyomi</h3>
-      <a href="URL_YT"><img width="1919" height="1079" alt="Captura de pantalla 2026-05-26 130815" src="https://github.com/user-attachments/assets/e52d6236-7a36-4860-b381-62fa15133e0a" /></a>
+      <a href="URL_YT"><img width="1919" height="1079" alt="Captura de pantalla 2026-05-26 130815" src="https://github.com/user-attachments/assets/ac81d19a-88ce-4ed6-b350-769adcd8d9e5" /></a>
       <br/><br/>
       <p>aplicacion de escritorio para ver anime de forma gratuita.</p>
       <a href="https://github.com/CrizzVc/Tsukuyomi"><img src="https://img.shields.io/badge/Código-GitHub-black?logo=github"/></a>
