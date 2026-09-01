@@ -54,7 +54,6 @@
       <br/><br/>
       <p>programa de widgets nativos para windows.</p>
       <a href="https://github.com/CrizzVc/widgUI"><img src="https://img.shields.io/badge/Código-GitHub-black?logo=github"/></a>
-      <a href="URL_YT2"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white"/></a>
     </td>
   </tr>
 </table>
@@ -65,4 +64,5 @@
     <br/><br/>
     <p>Experiencia de ps5 ahora en tu PC!!</p>
     <a href="https://github.com/angelvc25/WPS5"><img src="https://img.shields.io/badge/Código-GitHub-black?logo=github"/></a>
+    <a href="https://www.youtube.com/@Re-Devs"><img src="https://img.shields.io/badge/YouTube-FF0000?logo=youtube&logoColor=white"/></a>
   </td>
