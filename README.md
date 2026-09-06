@@ -1,8 +1,7 @@
 <div align="center">
 <h1 align="center">Hola, soy Criz</a> 👋</h1>
 </div>
-<!-- <img src="/imagenes/descarga (4).gif" width="1040px" height="470px"> -->
-<img width="7000" height="3020" alt="Agregar un título" src="https://github.com/user-attachments/assets/0f17e714-61b2-4634-a0d8-6332c0b5da12" />
+<img src="/imagenes/descarga (4).gif" width="1040px" height="470px">
 
 
 
