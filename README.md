@@ -1,7 +1,9 @@
 <div align="center">
 <h1 align="center">Hola, soy Criz</a> 👋</h1>
 </div>
-<img src="/imagenes/descarga (4).gif" width="1040px" height="470px">
+<!-- <img src="/imagenes/descarga (4).gif" width="1040px" height="470px"> -->
+<img width="7000" height="3020" alt="Agregar un título" src="https://github.com/user-attachments/assets/0f17e714-61b2-4634-a0d8-6332c0b5da12" />
+
 
 
 
@@ -32,8 +34,10 @@
 ## Mis Proyectos
 
 <td align="center" width="50%">
-  <h3>GBL - Game Box Launcher v.1.0.0</h3>
-  <a href="URL_YT"><img width="1919" height="1079" alt="Captura de pantalla 2026-06-02 072535" src="https://github.com/user-attachments/assets/a5ef05c7-f474-499b-84b3-38ab1fbc1c52" /></a>
+  <h3>HASHI v.1.0.0</h3>
+  <img width="1919" height="1079" alt="Captura de pantalla 2026-09-01 214225" src="https://github.com/user-attachments/assets/54687c4b-08ae-4602-b287-b49d216e6d4a" />
+
+
   <br/><br/>
   <p>Convierte tu PC en una consola con una sola app</p>
   <a href="https://github.com/CrizzVc/GBL"><img src="https://img.shields.io/badge/Código-GitHub-black?logo=github"/></a>
