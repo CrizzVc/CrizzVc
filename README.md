@@ -33,7 +33,7 @@
 ## Mis Proyectos
 
 <td align="center" width="50%">
-  <h3>HASHI v.1.0.0</h3>
+  <h3>HASHI v.1.0.1</h3>
   <a href="https://github.com/CrizzVc/GBL">
     <img width="1919" height="1079" alt="Captura de pantalla 2026-09-01 214225" src="https://github.com/user-attachments/assets/54687c4b-08ae-4602-b287-b49d216e6d4a" />
   </a>
