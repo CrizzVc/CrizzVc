@@ -53,7 +53,7 @@
     </td>
     <td align="center" width="50%">
       <h3>widgUI ft. <a href="https://github.com/angelvc25"> @angelvc25 </a> </h3>
-      <a href="https://github.com/angelvc25/WPS5"><img width="1919" height="1079" alt="Captura de pantalla 2026-05-26 135405" src="https://github.com/user-attachments/assets/76bbe9b7-a578-4e64-9350-9f8d8cd5764a" /></a>
+      <a href="https://github.com/CrizzVc/widgUI"><img width="1919" height="1079" alt="Captura de pantalla 2026-05-26 135405" src="https://github.com/user-attachments/assets/76bbe9b7-a578-4e64-9350-9f8d8cd5764a" /></a>
       <br/><br/>
       <p>programa de widgets nativos para windows.</p>
       <a href="https://github.com/CrizzVc/widgUI"><img src="https://img.shields.io/badge/Código-GitHub-black?logo=github"/></a>
