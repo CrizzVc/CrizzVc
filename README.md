@@ -62,7 +62,7 @@
 </table>
 
   <td align="center" width="50%">
-    <h3>WPS5 by. <a href="https://github.com/angelvc25"> @angelvc25 </a></h3>
+    <h3>WPS5 ft. <a href="https://github.com/angelvc25"> @angelvc25 </a></h3>
     <a href="https://github.com/angelvc25/WPS5"><img width="1919" height="1079" alt="Captura de pantalla 2026-06-02 072535" src="https://github.com/user-attachments/assets/ffef65b5-0f7f-487b-a32b-6b5f7fa80722" /></a>
     <br/><br/>
     <p>Experiencia de ps5 ahora en tu PC!!</p>
